@@ -15,5 +15,10 @@ function printArr(array $numbers)
 
 function Largest(array $numbers)
 {
-    echo '<p>' . max($numbers) . '</p>';
+    return max($numbers);
+}
+
+function removeDups(array $numbers)
+{
+    return array_unique($numbers);
 }

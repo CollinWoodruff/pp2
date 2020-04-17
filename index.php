@@ -18,9 +18,14 @@ $numbers = array( "7", "9", "8", "9", "8", "8", "6");
 
 require_once ("functions.php");
 
-printArr($numbers);
-
 echo "<p>Step 3</p>";
 
-Largest($numbers);
+printArr($numbers);
 
+echo "<p>Step 4</p>";
+
+echo '<p>' . Largest($numbers) . '</p>';
+
+echo "<p>Step 5</p>";
+
+printArr(removeDups($numbers));
