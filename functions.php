@@ -12,3 +12,8 @@ function printArr(array $numbers)
         echo "$value<br>";
     }
 }
+
+function Largest(array $numbers)
+{
+    echo '<p>' . max($numbers) . '</p>';
+}

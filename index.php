@@ -19,3 +19,8 @@ $numbers = array( "7", "9", "8", "9", "8", "8", "6");
 require_once ("functions.php");
 
 printArr($numbers);
+
+echo "<p>Step 3</p>";
+
+Largest($numbers);
+
