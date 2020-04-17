@@ -11,3 +11,17 @@ error_reporting(E_ALL);
 
 echo "<p>step 1</p>
 <h1>PHP Array Practice</h1>";
+
+echo "<p>Step 2</p>";
+
+$numbers = array( "7", "9", "8", "9", "8", "8", "6");
+
+function printArr(array $numbers)
+{
+    foreach ($numbers as $value)
+    {
+        echo "$value<br>";
+    }
+}
+
+printArr($numbers);
