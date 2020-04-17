@@ -29,3 +29,8 @@ echo '<p>' . Largest($numbers) . '</p>';
 echo "<p>Step 5</p>";
 
 printArr(removeDups($numbers));
+
+echo "<p>Step 6</p>";
+
+distribution($numbers);
+
